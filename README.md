@@ -22,8 +22,6 @@ https://github.com/user-attachments/assets/8e283a63-0cd8-490f-b3fd-a1b8fbb1dae8
 
 # Requirements
 
-FiveM server
-
 QBCore Framework
 
 # Installation
