@@ -33,3 +33,4 @@ Place the folder in your server’s resources directory, e.g., resources/[qb]/qb
 
 I am aware of the progress bar not being perfectly synced and the music not playing. I am actively looking into this and the published released shall be changed when this is fixed.
 If you want to be aware of when this is fixed and early access/previews to my other scripts, join my [Discord](https://discord.gg/NhhBaGXUX8).
+This comes with **MY LOGO** and is fully replaceable. 
