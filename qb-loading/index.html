@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QBCore Loading</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="qb-loading-root">
+    <div class="card">
+      <audio id="bg-music" src="music/loading-theme.mp3" loop preload="auto"></audio>
+
+      <img class="logo" src="images/logo.png" alt="Server Logo" />
+
+      <h1>Welcome to <span>OvrRP</span></h1>
+      <div class="sub">Loading your experience...</div>
+
+      <div class="bar"><div class="fill" id="progress"></div></div>
+      <div class="pct" id="pct">0%</div>
+
+      <div class="spinner"></div>
+
+      <div class="tip" id="tip"></div>
+    </div>
+
+    <div class="footer">
+      <div class="vol">
+        <button id="muteBtn">🔊</button>
+        <input id="volume" type="range" min="0" max="1" step="0.01" value="0.5" />
+      </div>
+      <span class="sep">|</span>
+      <span>Powered by QBCore • Built By Ovrwrld</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
